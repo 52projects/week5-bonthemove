@@ -24,7 +24,8 @@ Tech
 Libs
 -------------------------
 
-* [OAuth2](http://rubygems.org/gems/oauth2)
+* [OAuth2 0.1.0](http://rubygems.org/gems/oauth2)
+* [gowalla 0.5.5](hhttp://rubygems.org/gems/gowalla)
 
 Tunes
 -------------------------
