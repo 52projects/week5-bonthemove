@@ -24,7 +24,7 @@ Tech
 Libs
 -------------------------
 
-* none
+* [OAuth2](http://rubygems.org/gems/oauth2)
 
 Tunes
 -------------------------
