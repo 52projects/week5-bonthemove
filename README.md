@@ -34,4 +34,4 @@ Not yet yo!
 Possible output
 -------------------------
 
-* An fun yet lucrative social experiment aimed at proving that other's predicability can be fun.  Down with spontaneity! 
+* A fun yet lucrative social experiment aimed at proving that other's predicability can be fun.  Down with spontaneity! 
