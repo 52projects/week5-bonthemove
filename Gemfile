@@ -31,3 +31,6 @@ gem 'oauth2'
 # group :development, :test do
 #   gem 'webrat'
 # end
+
+#For authentication
+gem 'devise'
