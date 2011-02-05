@@ -30,7 +30,7 @@ Libs
 Tunes
 -------------------------
 
-Not yet yo!
+* [Tron: Legacy by Daft Punk](http://www.amazon.com/Tron-Exclusive-Version-Digital-Booklet/dp/B004EI3ON4/ref=sr_shvl_album_1?ie=UTF8&qid=1295058491&sr=301-1)
 
 Possible output
 -------------------------
