@@ -11,4 +11,11 @@
 	checked in at <a href="http://gowalla.com<%=@user.last_checkins.first.spot.url%>"><%=@user.last_checkins.first.spot.name%></a>.
 </p>
 
-<%=@user%>
+<h3>History</h3>
+<%=@checkins.each do |event|%>
+<p>
+	<img src="<%=event.spot.image_url%>">
+	<a href="http://gowalla.com<%=@user.url%>"><%= "#{@user.first_name} #{@user.last_name}" %></a> 
+	checked in at <a href="http://gowalla.com<%=event.spot.url%>"><%=event.spot.name%></a>.
+</p>
+<%end%>
