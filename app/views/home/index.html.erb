@@ -1,2 +1,14 @@
-<h1>Home#index</h1>
-<p>Find me in app/views/home/index.html.erb</p>
+<h1>The Target</h1>
+<p>
+	<img src="<%=@user._image_url_200%>"/>
+	Name: <%= "#{@user.first_name} #{@user.last_name}" %>
+</p>
+
+<h3>Last Checkin</h3>
+<p>
+	<img src="<%=@user.last_checkins.first.spot.image_url%>">
+	<a href="http://gowalla.com<%=@user.url%>"><%= "#{@user.first_name} #{@user.last_name}" %></a> 
+	checked in at <a href="http://gowalla.com<%=@user.last_checkins.first.spot.url%>"><%=@user.last_checkins.first.spot.name%></a>.
+</p>
+
+<%=@user%>
