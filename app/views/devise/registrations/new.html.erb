@@ -11,7 +11,13 @@
 
   <p><%= f.label :password_confirmation %><br />
   <%= f.password_field :password_confirmation %></p>
-
+	
+	<p><%= f.label :gowalla_username %><br />
+	<%= f.text_field :gowalla_username %></p>
+	
+	<p><%= f.label :gowalla_password %><br />
+	<%= f.password_field :gowalla_password %></p>
+	
   <p><%= f.submit "Sign up" %></p>
 <% end %>
 
