@@ -10,9 +10,13 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20110206191156) do
+ActiveRecord::Schema.define(:version => 20110206234914) do
 
   create_table "bets", :force => true do |t|
+    t.decimal  "bcash"
+    t.integer  "user_id"
+    t.integer  "spot_id"
+    t.integer  "spot_type_id"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
@@ -33,6 +37,7 @@ ActiveRecord::Schema.define(:version => 20110206191156) do
     t.datetime "updated_at"
     t.string   "gowalla_username"
     t.string   "gowalla_password"
+    t.decimal  "bcash"
   end
 
   add_index "users", ["email"], :name => "index_users_on_email", :unique => true
