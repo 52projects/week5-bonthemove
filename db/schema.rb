@@ -10,7 +10,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20110206234914) do
+ActiveRecord::Schema.define(:version => 20110207000955) do
 
   create_table "bets", :force => true do |t|
     t.decimal  "bcash"
@@ -35,9 +35,10 @@ ActiveRecord::Schema.define(:version => 20110206234914) do
     t.string   "last_sign_in_ip"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.decimal  "bcash"
     t.string   "gowalla_username"
     t.string   "gowalla_password"
-    t.decimal  "bcash"
+    t.boolean  "isadmin"
   end
 
   add_index "users", ["email"], :name => "index_users_on_email", :unique => true
